@@ -1,0 +1,21 @@
+
+table{
+    width: 50%;
+    border-collapse: collapse;
+}
+th{
+    height: 40px;
+    background-color:mediumvioletred;
+    color: white;
+}
+tr{
+    height: 30px;
+    vertical-align: middle;
+
+}
+th,td{
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+tr:hover{background-color: lightpink;}
