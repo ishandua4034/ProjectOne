@@ -1,7 +1,7 @@
 <h1>List of Users </h1>
 
-<ol *ngFor="let json of getJson()">
-    <li *ngFor="let user of json.users">
+<ol>
+    <li *ngFor="let user of getJson()">
         {{user.name}}
     </li>
 </ol>

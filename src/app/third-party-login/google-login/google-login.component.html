@@ -1,0 +1,15 @@
+<h2>Google Login</h2>
+<button (click)="signIn();" class="waves-effect waves-light btn social google">
+    <i class="fa fa-google"></i>
+    Login with Google.
+</button>
+<br><br>
+<button (click)="signOut();">
+    LogOut
+</button>
+<br><br>
+<div *ngIf="loggedIn">
+    <img src="{{userData.imagePath}}">
+    <h3>{{userData.name}}</h3>
+    <h3>{{userData.emailID}}</h3>
+</div>

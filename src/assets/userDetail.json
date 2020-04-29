@@ -1,0 +1,51 @@
+[
+    {
+        "firstName": "David", 
+        "lastName": "Warner", 
+        "age": "33", 
+        "sex": "Male",
+        "userId":"102"
+    },
+    {
+        "firstName": "Virat", 
+        "lastName": "Kohli", 
+        "age": "32", 
+        "sex": "Male",
+        "userId":"101"
+    },
+    {
+        "firstName": "Sarah", 
+        "lastName": "Taylor", 
+        "age": "31", 
+        "sex": "Female",
+        "userId":"107"
+    },
+    {
+        "firstName": "Jhulan", 
+        "lastName": "Goswami", 
+        "age": "34", 
+        "sex": "Female",
+        "userId":"104"
+    },
+    {
+        "firstName": "Ricky", 
+        "lastName": "Ponting", 
+        "age": "40", 
+        "sex": "Male",
+        "userId":"105"
+    },
+    {
+        "firstName": "Chris", 
+        "lastName": "Gayle", 
+        "age": "35", 
+        "sex": "Male",
+        "userId":"106"
+    },
+    {
+        "firstName": "Mahendra S.", 
+        "lastName": "Dhoni", 
+        "age": "36", 
+        "sex": "Male",
+        "userId":"103"
+    }
+]

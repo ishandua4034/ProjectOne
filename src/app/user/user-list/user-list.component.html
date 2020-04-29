@@ -1,0 +1,18 @@
+<div class=tab>
+<h1>List of players</h1>
+<table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+      </tr>
+    </thead>
+    <tbody>  
+      <tr *ngFor="let user of userList" [routerLink]="['/user-detail', user.userId]">
+        <td>{{user.userId}}</td>
+        <td>{{user.name}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+ 
