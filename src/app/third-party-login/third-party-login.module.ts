@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { GoogleLoginComponent } from './google-login/google-login.component';
+import { LoginGoogleComponent } from './google-login/login-google.component';
 import { SocialLoginModule, AuthServiceConfig, GoogleLoginProvider} from "angularx-social-login";
 
 const googleClientId: string = '1065579699439-ke00j0375d004qgngluiofpk7u5gth8q.apps.googleusercontent.com';
@@ -15,7 +15,7 @@ export function provideConfig() {
 }
 
 @NgModule({
-  declarations: [GoogleLoginComponent],
+  declarations: [LoginGoogleComponent],
   imports: [
     CommonModule,
     SocialLoginModule
@@ -26,7 +26,7 @@ export function provideConfig() {
       useFactory: provideConfig
     }],
     exports:[
-      GoogleLoginComponent
+      LoginGoogleComponent
     ]
 })
 export class ThirdPartyLoginModule { }
